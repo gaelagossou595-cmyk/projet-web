@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
 <body>
@@ -20,6 +21,34 @@
     </header>
   <main>
     <h4> Contact </h4>
+    <ul>
+        <li> <a href="https://github.com/gaelagossou595-cmyk/projet-web.git"
+    target="_blank"> Mon GitHub</a> </li>
+    </ul>
+     <form>
+      <label for="name">Nom</label><br />
+      <input type="text" id="nom" name="name" /><br />
+
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="arrondissment">Arrondissement</label><br />
+      <select name="arrondissement" id="arrondissement">
+        <option value="1">1er</option>
+        <option value="2">2ème</option>
+        <option value="3">3ème</option>
+        <option value="4">4ème</option>
+        <option value="5">5ème</option>
+        <option value="6">6ème</option>
+        <option value="7">7ème</option>
+        <option value="8">8ème</option>
+      </select><br />
+
+      <label for="message">Message</label><br />
+      <textarea name="message" id="message"></textarea><br />
+
+      <button type="submit">Envoyer</button><br />
+    </form>
   </main>
     <footer>
     <p>&copy; 2023 Mon Portfolio. Tous droits réservés.</p>
